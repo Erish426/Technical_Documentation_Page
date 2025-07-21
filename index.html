@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basics of Java Programming</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>Java Technical Documentation</header>
+            <p><a class="nav-link" href="#Introduction_to_Java">Introduction to Java</a></p>
+            <p><a class="nav-link" href="#Variables_and_Data_Types">Variables and  Data Types</a></p>
+            <p><a class="nav-link" href="#Methods_and_Scope">Methods and Scope</a></p>
+            <p><a class="nav-link" href="#Control_Flow_and_Loops">Control Flow and Loops</a></p>
+            <p><a class="nav-link" href="#Classes_and_Objects">Classes and Objects</a></p>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Introduction_to_Java">
+                <header>Introduction to Java</header>
+                <p>Java is a popular, class-based, object-oriented programming language.</p>
+                <p>It is designed to have as few implementation dependencies as possible, enabling cross-platform use.</p>
+                <p>Java applications are typically compiled to bytecode and run on the Java Virtual Machine (JVM).</p>
+                <pre><code>
+<!--                -->public class HelloWorld {
+<!--                -->  public static void main(String[] args) {
+<!--                -->    System.out.println("Hello World");
+<!--                -->  }
+<!--                -->}
+                </code></pre>
+                <ul>
+                    <li>Platform-independent via JVM</li>
+                    <li>Strongly typed</li>
+                    <li>Widely used in enterprise and Android development</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Variables_and_Data_Types">
+                <header>Variables and Data Types</header>
+                <p>Variables in Java hold data of specific types and must be declared before use.</p>
+                <p>Java supports primitive types such as int, double, and boolean, as well as reference types like objects.</p>
+                <pre><code>
+<!--                -->String name = "Mico";
+<!--                -->int age = 25;
+<!--                -->double salary = 45000.00;
+<!--                -->boolean isEmployee = true;
+                </code></pre>
+                <ul>
+                    <li>int</li>
+                    <li>double</li>
+                    <li>boolean</li>
+                    <li>char</li>
+                    <li>String</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Methods_and_Scope">
+                <header>Methods and Scope</header>
+                <p>Methods in Java define reusable blocks of code that perform specific tasks.</p>
+                <p>Scope determines where variables and methods can be accessed within the code.</p>
+                <pre><code>
+<!--                -->public void greet() {
+<!--                -->  System.out.println("Welcome " +name+ "!");
+<!--                -->}
+                </code></pre>
+                <ul>
+                    <li>Public scope</li>
+                    <li>Private scope</li>
+                    <li>Protected scope</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Control_Flow_and_Loops">
+                <header>Control Flow and Loops</header>
+                <p>Java uses control flow statements to make decisions and repeat actions.</p>
+                <p>Loops allow execution of code blocks multiple times based on conditions.</p>
+                <pre><code>
+<!--                -->for (int i = 0; i < 5; i++) {
+<!--                -->  System.out.println(i);
+<!--                -->}
+                </code></pre>
+                <ul>
+                    <li>if/else</li>
+                    <li>switch</li>
+                    <li>for loop</li>
+                    <li>while loop</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Classes_and_Objects">
+                <header>Classes and Objects</header>
+                <p>Classes are blueprints for creating objects, which encapsulate data and behavior.</p>
+                <p>Objects are instances of classes with their own state and methods.</p>
+                <pre><code>
+<!--                -->Public class Person {
+<!--                -->  String name;
+<!--                -->  int age;
+<!--                -->}
+                </code></pre>
+                <ul>
+                    <li>Class properties</li>
+                    <li>Constructors</li>
+                    <li>Methods</li>
+                    <li>Inheritance</li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
